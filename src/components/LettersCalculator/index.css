@@ -1,0 +1,46 @@
+/* Write your code here. */
+.container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.calculator-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.text-container {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.type-text {
+  color: #ffffff;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #e4e7eb;
+  border-radius: 8px;
+  height: 25px;
+}
+.button {
+  color: #219a6f;
+  background-color: #ffffff;
+  padding: 13px;
+  border: none;
+  height: 60px;
+  width: 250px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+}
+.letter {
+  color: #e4e7eb;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
